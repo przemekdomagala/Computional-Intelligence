@@ -35,15 +35,6 @@ Implementacja agenta RL, analiza wyników, opcjonalnie tryb graficzny.
 
 ---
 
-### 🌊 Uczenie w przestrzeniach ciągłych
-Wykorzystanie algorytmów ze **Stable-Baselines3** (np. PPO, DDPG, TD3) w środowiskach o ciągłych stanach i akcjach (np. `Pendulum-v1`).  
-Porównanie hiperparametrów, architektur sieci i wyników.
-
-📚 **Biblioteki:**  
-`stable-baselines3`, `gymnasium`, `torch`, `numpy`, `matplotlib`
-
----
-
 ### 🤝 Środowiska wieloagentowe
 Eksperymenty w środowiskach wieloagentowych z użyciem **PettingZoo** i algorytmów z **CleanRL** lub **Stable-Baselines3**.  
 Porównanie wyników różnych algorytmów i konfiguracji agentów.
