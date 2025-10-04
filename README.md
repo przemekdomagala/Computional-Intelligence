@@ -1,7 +1,7 @@
-# 🤖 Inteligencja Obliczeniowa — Projekty
+# 🤖 Inteligencja Obliczeniowa - Projekty
 
 Repozytorium zawiera implementacje projektów realizowanych w ramach kursu **Inteligencja Obliczeniowa (2024/2025)**.  
-Każdy projekt dotyczy innego aspektu sztucznej inteligencji — od klasycznych gier z AI po uczenie ze wzmocnieniem i środowiska wieloagentowe.
+Każdy projekt dotyczy innego aspektu sztucznej inteligencji - od klasycznych gier z AI po uczenie ze wzmocnieniem i środowiska wieloagentowe.
 
 ---
 
