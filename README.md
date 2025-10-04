@@ -31,7 +31,7 @@ Tworzenie własnego środowiska zgodnie z API `gymnasium.Env`, np. prosta gra zr
 Implementacja agenta RL, analiza wyników, opcjonalnie tryb graficzny.
 
 📚 **Biblioteki:**  
-`gymnasium`, `pygame` *(dla wizualizacji)*, `matplotlib`
+`gymnasium`, `pygame`, `matplotlib`
 
 ---
 
