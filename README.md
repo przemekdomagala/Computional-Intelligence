@@ -1,43 +1,38 @@
-# 🤖 Inteligencja Obliczeniowa - Projekty
+# Computational Intelligence - Projects
 
-Repozytorium zawiera implementacje projektów realizowanych w ramach kursu **Inteligencja Obliczeniowa (2024/2025)**.  
-Każdy projekt dotyczy innego aspektu sztucznej inteligencji - od klasycznych gier z AI po uczenie ze wzmocnieniem i środowiska wieloagentowe.
-
----
-
-## 📂 Projekty
-
-### 🧩  EasyAI (gry planszowe i algorytmy Negamax)
-Implementacja wariantu gry z elementem losowości.  
-Porównanie algorytmów **Negamax**, **Negamax z alfa-beta pruning** oraz **Expectiminimax** na wersjach deterministycznych i probabilistycznych gry.
-
-📚 **Biblioteki:**  
-`easyAI`, `numpy`, `matplotlib`
-
+This repository contains project implementations developed as part of the **Computational Intelligence (2024/2025)** course.  
+Each project focuses on a different aspect of artificial intelligence—ranging from classic AI games to reinforcement learning and multi-agent environments.
 
 ---
 
-### 🧠 Podstawy Gymnasium (uczenie ze wzmocnieniem)
-Pierwsze eksperymenty z **Gymnasium** – środowiska takie jak `FrozenLake-v1`, `Taxi-v3`.  
-Implementacja agenta **Q-learning** lub **SARSA**, wizualizacja krzywej uczenia.
+## Projects
 
-📚 **Biblioteki:**  
-`gymnasium`, `numpy`, `matplotlib`
+### EasyAI (Board Games and Negamax Algorithms)
+Implementation of a game variant that includes an element of randomness.  
+A comparison of the **Negamax**, **Negamax with alpha-beta pruning**, and **Expectiminimax** algorithms across both deterministic and probabilistic versions of the game.
 
----
-
-### 🧱 Własne środowisko Gymnasium
-Tworzenie własnego środowiska zgodnie z API `gymnasium.Env`, np. prosta gra zręcznościowa lub logiczna.  
-Implementacja agenta RL, analiza wyników, opcjonalnie tryb graficzny.
-
-📚 **Biblioteki:**  
-`gymnasium`, `pygame`, `matplotlib`
+**Libraries:** `easyAI`, `numpy`, `matplotlib`
 
 ---
 
-### 🤝 Środowiska wieloagentowe
-Eksperymenty w środowiskach wieloagentowych z użyciem **PettingZoo** i algorytmów z **CleanRL** lub **Stable-Baselines3**.  
-Porównanie wyników różnych algorytmów i konfiguracji agentów.
+### Basics of Gymnasium (Reinforcement Learning)
+Initial experiments with **Gymnasium** using environments such as `FrozenLake-v1` and `Taxi-v3`.  
+Implementation of a **Q-learning** or **SARSA** agent, along with learning curve visualization.
 
-📚 **Biblioteki:**  
-`pettingzoo`, `cleanrl`, `stable-baselines3`, `gymnasium`
+**Libraries:** `gymnasium`, `numpy`, `matplotlib`
+
+---
+
+### Custom Gymnasium Environment
+Creation of a custom environment compliant with the `gymnasium.Env` API, such as a simple arcade or logic game.  
+Implementation of an RL agent, results analysis, and an optional graphical mode.
+
+**Libraries:** `gymnasium`, `pygame`, `matplotlib`
+
+---
+
+### Multi-Agent Environments
+Experiments in multi-agent environments using **PettingZoo** and algorithms from **CleanRL** or **Stable-Baselines3**.  
+A performance comparison of different algorithms and agent configurations.
+
+**Libraries:** `pettingzoo`, `cleanrl`, `stable-baselines3`, `gymnasium`
