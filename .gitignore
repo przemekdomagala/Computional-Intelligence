@@ -2,3 +2,10 @@
 .ven
 *.zip
 *.pdf
+
+# Training runtime artifacts (regenerable by re-running the notebooks)
+crossy_road_env/crossy_tensorboard/
+custom_env_experiments/logs/
+*.tfevents.*
+evaluations.npz
+monitor.csv
